@@ -1,0 +1,70 @@
+body {
+  padding: 100px 0 0 0;
+}
+
+.greeting {
+  text-decoration: underline;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100px;
+
+  background-color: black;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+}
+
+.section p {
+  font-size: 2rem;
+  padding: 20px 40px;
+}
+
+.section img {
+  max-height: 50vh;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 2rem;
+  height: 60vh;
+}
+
+.form input[type=checkbox] {
+  transform: scale(2, 2) rotate(180deg);
+}

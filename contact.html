@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Taco Tuesday!</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <nav>
+      <h1>Taco Tuesday</h1>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="form">
+      <label>
+        extra cheese?
+        <input type="checkbox" name="extra cheese?"/>
+      </label>
+
+      <select>
+        <option value="">What's your problem?</option>
+        <option value="hungry">I'm hungry</option>
+        <option value="thirsty">I'm thirsty</option>
+      </select>
+
+      <input placeholder="Your Name"/>
+
+      <textarea maxlength=100>blah blah blah</textarea>
+
+      <button onclick="console.log(document.querySelector('textarea').value)">Submit</button>
+    </div>
+  </body>
+</html>
