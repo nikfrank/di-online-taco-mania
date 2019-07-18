@@ -20,6 +20,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  z-index: 100;
 }
 
 nav ul {
@@ -92,6 +94,11 @@ nav ul li:first-child {
 }
 
 
+#carouselExampleControls {
+  height: 80vh;
+  overflow: hidden;
+}
+
 h3 {
   font-size: 3rem;
   text-align: center;
@@ -145,7 +152,6 @@ h3 {
 }
 
 .side-nav li {
-  padding: 6px;
   cursor: pointer;
 }
 
@@ -153,11 +159,21 @@ h3 {
   background-color: lightgray;
 }
 
+.side-nav a {
+  text-decoration: none;
+}
+
+.side-nav li div {
+  padding: 6px;
+  color: black;
+}
+
 .shop {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: calc(100vw - 150px);
+  margin-bottom: 80px;
 }
 
 .shop-item {
@@ -171,6 +187,7 @@ h3 {
   align-items: center;
 
   margin-top: 20px;
+  margin-right: 15px;
 }
 
 .shop-item img {
